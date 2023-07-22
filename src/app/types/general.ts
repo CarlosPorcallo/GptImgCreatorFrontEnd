@@ -12,3 +12,8 @@ export interface IAjaxResponse {
     data: object | any,
     message?: string   
 };
+
+// ajax response
+export interface IAjaxPromptRequest {
+    message: string   
+};
